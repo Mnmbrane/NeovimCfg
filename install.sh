@@ -13,16 +13,19 @@ mkdir -p ~/.local/share
 # Backup existing configs (if they exist)
 if [ -d ~/.config/nvim ]; then
   echo "Backing up existing nvim config to ~/.config/nvim.backup..."
+  rm -rf ~/.config/nvim.backup
   mv ~/.config/nvim ~/.config/nvim.backup
 fi
 
 if [ -d ~/.local/share/nvim ]; then
   echo "Backing up existing nvim data to ~/.local/share/nvim.backup..."
+  rm -rf ~/.local/share/nvim.backup
   mv ~/.local/share/nvim ~/.local/share/nvim.backup
 fi
 
 if [ -d ~/.config/tmux ]; then
   echo "Backing up existing tmux config to ~/.config/tmux.backup..."
+  rm -rf ~/.config/tmux.backup
   mv ~/.config/tmux ~/.config/tmux.backup
 fi
 
