@@ -1,0 +1,9 @@
+# Force Unix line endings for shell scripts
+*.sh text eol=lf
+
+# Force Unix line endings for Lua files
+*.lua text eol=lf
+
+# Force Unix line endings for config files
+*.conf text eol=lf
+*.toml text eol=lf
