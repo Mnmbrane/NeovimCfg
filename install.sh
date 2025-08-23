@@ -37,11 +37,7 @@ cp -r .config/nvim ~/.config/
 echo "Installing Neovim local share data..."
 cp -r .local/share/nvim ~/.local/share/
 
-# Bootstrap lazy.nvim if it doesn't exist
-if [ ! -d ~/.local/share/nvim/lazy/lazy.nvim ]; then
-    echo "Bootstrapping lazy.nvim..."
-    git clone --filter=blob:none https://github.com/folke/lazy.nvim.git --branch=stable ~/.local/share/nvim/lazy/lazy.nvim
-fi
+# Note: lazy.nvim will auto-bootstrap on first nvim launch
 
 # Install tmux configuration (if exists)
 if [ -d .config/tmux ]; then
