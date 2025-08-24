@@ -1,0 +1,153 @@
+[submodule ".local/share/nvim/lazy/blink.cmp"]
+	path = .local/share/nvim/lazy/blink.cmp
+	url = https://github.com/saghen/blink.cmp.git
+[submodule ".local/share/nvim/lazy/bufferline.nvim"]
+	path = .local/share/nvim/lazy/bufferline.nvim
+	url = https://github.com/akinsho/bufferline.nvim.git
+[submodule ".local/share/nvim/lazy/catppuccin"]
+	path = .local/share/nvim/lazy/catppuccin
+	url = https://github.com/catppuccin/nvim.git
+[submodule ".local/share/nvim/lazy/conform.nvim"]
+	path = .local/share/nvim/lazy/conform.nvim
+	url = https://github.com/stevearc/conform.nvim.git
+[submodule ".local/share/nvim/lazy/flash.nvim"]
+	path = .local/share/nvim/lazy/flash.nvim
+	url = https://github.com/folke/flash.nvim.git
+[submodule ".local/share/nvim/lazy/friendly-snippets"]
+	path = .local/share/nvim/lazy/friendly-snippets
+	url = https://github.com/rafamadriz/friendly-snippets.git
+[submodule ".local/share/nvim/lazy/gitsigns.nvim"]
+	path = .local/share/nvim/lazy/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule ".local/share/nvim/lazy/grug-far.nvim"]
+	path = .local/share/nvim/lazy/grug-far.nvim
+	url = https://github.com/MagicDuck/grug-far.nvim.git
+[submodule ".local/share/nvim/lazy/harpoon"]
+	path = .local/share/nvim/lazy/harpoon
+	url = https://github.com/ThePrimeagen/harpoon.git
+[submodule ".local/share/nvim/lazy/lazydev.nvim"]
+	path = .local/share/nvim/lazy/lazydev.nvim
+	url = https://github.com/folke/lazydev.nvim.git
+[submodule ".local/share/nvim/lazy/lazy.nvim"]
+	path = .local/share/nvim/lazy/lazy.nvim
+	url = https://github.com/folke/lazy.nvim.git
+[submodule ".local/share/nvim/lazy/LazyVim"]
+	path = .local/share/nvim/lazy/LazyVim
+	url = https://github.com/LazyVim/LazyVim.git
+[submodule ".local/share/nvim/lazy/lualine.nvim"]
+	path = .local/share/nvim/lazy/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule ".local/share/nvim/lazy/markdown-preview.nvim"]
+	path = .local/share/nvim/lazy/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
+[submodule ".local/share/nvim/lazy/mason-lspconfig.nvim"]
+	path = .local/share/nvim/lazy/mason-lspconfig.nvim
+	url = https://github.com/mason-org/mason-lspconfig.nvim.git
+[submodule ".local/share/nvim/lazy/mason.nvim"]
+	path = .local/share/nvim/lazy/mason.nvim
+	url = https://github.com/williamboman/mason.nvim.git
+[submodule ".local/share/nvim/lazy/mason-nvim-dap.nvim"]
+	path = .local/share/nvim/lazy/mason-nvim-dap.nvim
+	url = https://github.com/jay-babu/mason-nvim-dap.nvim.git
+[submodule ".local/share/nvim/lazy/mini.ai"]
+	path = .local/share/nvim/lazy/mini.ai
+	url = https://github.com/echasnovski/mini.ai.git
+[submodule ".local/share/nvim/lazy/mini.icons"]
+	path = .local/share/nvim/lazy/mini.icons
+	url = https://github.com/echasnovski/mini.icons.git
+[submodule ".local/share/nvim/lazy/mini.pairs"]
+	path = .local/share/nvim/lazy/mini.pairs
+	url = https://github.com/echasnovski/mini.pairs.git
+[submodule ".local/share/nvim/lazy/noice.nvim"]
+	path = .local/share/nvim/lazy/noice.nvim
+	url = https://github.com/folke/noice.nvim.git
+[submodule ".local/share/nvim/lazy/nui.nvim"]
+	path = .local/share/nvim/lazy/nui.nvim
+	url = https://github.com/MunifTanjim/nui.nvim.git
+[submodule ".local/share/nvim/lazy/nvim-dap"]
+	path = .local/share/nvim/lazy/nvim-dap
+	url = https://github.com/mfussenegger/nvim-dap.git
+[submodule ".local/share/nvim/lazy/nvim-dap-ui"]
+	path = .local/share/nvim/lazy/nvim-dap-ui
+	url = https://github.com/rcarriga/nvim-dap-ui.git
+[submodule ".local/share/nvim/lazy/nvim-dap-virtual-text"]
+	path = .local/share/nvim/lazy/nvim-dap-virtual-text
+	url = https://github.com/theHamsta/nvim-dap-virtual-text.git
+[submodule ".local/share/nvim/lazy/nvim-lint"]
+	path = .local/share/nvim/lazy/nvim-lint
+	url = https://github.com/mfussenegger/nvim-lint.git
+[submodule ".local/share/nvim/lazy/nvim-lspconfig"]
+	path = .local/share/nvim/lazy/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule ".local/share/nvim/lazy/nvim-nio"]
+	path = .local/share/nvim/lazy/nvim-nio
+	url = https://github.com/nvim-neotest/nvim-nio.git
+[submodule ".local/share/nvim/lazy/nvim-treesitter"]
+	path = .local/share/nvim/lazy/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule ".local/share/nvim/lazy/nvim-treesitter-textobjects"]
+	path = .local/share/nvim/lazy/nvim-treesitter-textobjects
+	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects.git
+[submodule ".local/share/nvim/lazy/nvim-ts-autotag"]
+	path = .local/share/nvim/lazy/nvim-ts-autotag
+	url = https://github.com/windwp/nvim-ts-autotag.git
+[submodule ".local/share/nvim/lazy/persistence.nvim"]
+	path = .local/share/nvim/lazy/persistence.nvim
+	url = https://github.com/folke/persistence.nvim.git
+[submodule ".local/share/nvim/lazy/plenary.nvim"]
+	path = .local/share/nvim/lazy/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule ".local/share/nvim/lazy/render-markdown.nvim"]
+	path = .local/share/nvim/lazy/render-markdown.nvim
+	url = https://github.com/MeanderingProgrammer/render-markdown.nvim.git
+[submodule ".local/share/nvim/lazy/rustaceanvim"]
+	path = .local/share/nvim/lazy/rustaceanvim
+	url = https://github.com/mrcjkb/rustaceanvim.git
+[submodule ".local/share/nvim/lazy/SchemaStore.nvim"]
+	path = .local/share/nvim/lazy/SchemaStore.nvim
+	url = https://github.com/b0o/SchemaStore.nvim.git
+[submodule ".local/share/nvim/lazy/snacks.nvim"]
+	path = .local/share/nvim/lazy/snacks.nvim
+	url = https://github.com/folke/snacks.nvim.git
+[submodule ".local/share/nvim/lazy/telescope.nvim"]
+	path = .local/share/nvim/lazy/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule ".local/share/nvim/lazy/todo-comments.nvim"]
+	path = .local/share/nvim/lazy/todo-comments.nvim
+	url = https://github.com/folke/todo-comments.nvim.git
+[submodule ".local/share/nvim/lazy/tokyonight.nvim"]
+	path = .local/share/nvim/lazy/tokyonight.nvim
+	url = https://github.com/folke/tokyonight.nvim.git
+[submodule ".local/share/nvim/lazy/trouble.nvim"]
+	path = .local/share/nvim/lazy/trouble.nvim
+	url = https://github.com/folke/trouble.nvim.git
+[submodule ".local/share/nvim/lazy/ts-comments.nvim"]
+	path = .local/share/nvim/lazy/ts-comments.nvim
+	url = https://github.com/folke/ts-comments.nvim.git
+[submodule ".local/share/nvim/lazy/vim-tmux-navigator"]
+	path = .local/share/nvim/lazy/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule ".local/share/nvim/lazy/which-key.nvim"]
+	path = .local/share/nvim/lazy/which-key.nvim
+	url = https://github.com/folke/which-key.nvim.git
+[submodule ".config/tmux/plugins/catppuccin-tmux"]
+	path = .config/tmux/plugins/catppuccin-tmux
+	url = https://git::@github.com/dreamsofcode-io/catppuccin-tmux
+[submodule ".config/tmux/plugins/tmux"]
+	path = .config/tmux/plugins/tmux
+	url = https://git::@github.com/catppuccin/tmux
+[submodule ".config/tmux/plugins/tmux-resurrect"]
+	path = .config/tmux/plugins/tmux-resurrect
+	url = https://git::@github.com/tmux-plugins/tmux-resurrect
+[submodule ".config/tmux/plugins/tmux-sensible"]
+	path = .config/tmux/plugins/tmux-sensible
+	url = https://git::@github.com/tmux-plugins/tmux-sensible
+[submodule ".config/tmux/plugins/tmux-yank"]
+	path = .config/tmux/plugins/tmux-yank
+	url = https://git::@github.com/tmux-plugins/tmux-yank
+[submodule ".config/tmux/plugins/tpm"]
+	path = .config/tmux/plugins/tpm
+	url = https://git::@github.com/tmux-plugins/tpm
+[submodule ".config/tmux/plugins/vim-tmux-navigator"]
+	path = .config/tmux/plugins/vim-tmux-navigator
+	url = https://git::@github.com/christoomey/vim-tmux-navigator

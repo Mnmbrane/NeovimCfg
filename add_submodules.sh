@@ -13,9 +13,16 @@ get_plugin_url() {
     fi
 }
 
-# Remove existing plugin directories first
-rm -rf .local/share/nvim/lazy/*
-rm -rf .config/tmux/plugins/*
+# Remove existing plugin directories first (only if no submodules exist)
+if [ ! -f ".gitmodules" ]; then
+    echo "No existing submodules found, removing plugin directories..."
+    rm -rf .local/share/nvim/lazy/*
+    rm -rf .config/tmux/plugins/*
+else
+    echo "Submodules already exist, skipping directory removal."
+    echo "If you want to rebuild submodules, remove .gitmodules file first."
+    exit 0
+fi
 
 echo "Detecting plugins from ~/.local/share/nvim/lazy..."
 
