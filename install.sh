@@ -45,6 +45,13 @@ if [ -d .config/tmux ]; then
   cp -r .config/tmux ~/.config/
 fi
 
+# Install treesitter parsers if they exist
+if [ -d "treesitter-parsers" ]; then
+    echo "Installing treesitter parsers..."
+    mkdir -p ~/.local/share/nvim/lazy/nvim-treesitter/parser
+    cp treesitter-parsers/* ~/.local/share/nvim/lazy/nvim-treesitter/parser/
+fi
+
 echo "Installation complete!"
 echo "Note: Any existing configs were backed up with .backup extension"
 
