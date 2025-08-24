@@ -15,6 +15,7 @@ get_plugin_url() {
 
 # Remove existing plugin directories first
 rm -rf .local/share/nvim/lazy/*
+rm -rf .config/tmux/plugins/*
 
 echo "Detecting plugins from ~/.local/share/nvim/lazy..."
 
@@ -40,6 +41,36 @@ for plugin_path in ~/.local/share/nvim/lazy/*/; do
         if [ -n "$plugin_url" ]; then
             echo "  Status: Adding as submodule..."
             git submodule add "$plugin_url" ".local/share/nvim/lazy/$plugin_name" || echo "  Status: FAILED to add as submodule"
+        else
+            echo "  Status: SKIPPED - no git URL found"
+        fi
+        echo
+    fi
+done
+
+echo "Processing tmux plugins from ~/.config/tmux/plugins..."
+
+# Loop through all tmux plugin directories
+for plugin_path in ~/.config/tmux/plugins/*/; do
+    if [ -d "$plugin_path" ]; then
+        plugin_name=$(basename "$plugin_path")
+        
+        # Skip the plugins directory itself
+        if [[ "$plugin_name" == "plugins" ]]; then
+            continue
+        fi
+        
+        echo "Processing tmux plugin: $plugin_name"
+        
+        # Try to get the git URL from the plugin directory
+        plugin_url=$(get_plugin_url "$plugin_path")
+        
+        echo "Plugin: $plugin_name"
+        echo "  URL: ${plugin_url:-'NOT FOUND'}"
+        
+        if [ -n "$plugin_url" ]; then
+            echo "  Status: Adding as submodule..."
+            git submodule add "$plugin_url" ".config/tmux/plugins/$plugin_name" || echo "  Status: FAILED to add as submodule"
         else
             echo "  Status: SKIPPED - no git URL found"
         fi
