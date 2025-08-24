@@ -37,7 +37,9 @@ cp -r .config/nvim ~/.config/
 echo "Installing Neovim local share data..."
 cp -r .local/share/nvim ~/.local/share/
 
-# Note: lazy.nvim will auto-bootstrap on first nvim launch
+# Initialize git submodules for plugins
+echo "Initializing plugin submodules..."
+git submodule update --init --recursive
 
 # Install tmux configuration (if exists)
 if [ -d .config/tmux ]; then
