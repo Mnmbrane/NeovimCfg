@@ -34,12 +34,16 @@ for plugin_path in ~/.local/share/nvim/lazy/*/; do
         # Try to get the git URL from the plugin directory
         plugin_url=$(get_plugin_url "$plugin_path")
         
+        echo "Plugin: $plugin_name"
+        echo "  URL: ${plugin_url:-'NOT FOUND'}"
+        
         if [ -n "$plugin_url" ]; then
-            echo "Adding submodule: $plugin_name -> $plugin_url"
-            git submodule add "$plugin_url" ".local/share/nvim/lazy/$plugin_name" || echo "Failed to add $plugin_name as submodule"
+            echo "  Status: Adding as submodule..."
+            git submodule add "$plugin_url" ".local/share/nvim/lazy/$plugin_name" || echo "  Status: FAILED to add as submodule"
         else
-            echo "Warning: Could not determine git URL for $plugin_name"
+            echo "  Status: SKIPPED - no git URL found"
         fi
+        echo
     fi
 done
 
